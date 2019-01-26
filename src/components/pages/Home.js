@@ -1,8 +1,14 @@
 import React from "react";
+import Background from "./images/matrixBinary.png"
 
+var sectionStyle = {
+  width: "100%",
+  height: "100vh",
+  backgroundImage: `url(${Background})`
+};
 function Home() {
   return (
-    <div>
+    <div style={sectionStyle} >
       <h1>Home Page</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
