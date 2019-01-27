@@ -1,15 +1,40 @@
 import React from "react";
-
+import Orion from "../../assets/img/me.png"
 function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>About Me</h1>
+      <img src={Orion} />
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        I'm an ambitious web developer who enjoys solving puzzles and problems by calculating the best possible solutions. I am looking for a web development job for an innovative company. I Love tackling the rules and tactics in digital card games to identify the best line of play and am applying this problem-solving passion to coding. I acquired a certificate from Berkeley Extension Full-stack Bootcamp, which expanded skills in HTML/CSS, Javascript, JQuery, React, and Node. I’m thrilled to work with other developers to find bugs quickly and design excellent coding structures. My enthusiasm for problem-solving and tranquil demeanor is invaluable for any company.
+  
+        I'm skilled in these frontend technologies:
+<ul>
+          <li>React.js</li>
+          <li>HTML and templating</li>
+          <li>Handlebars</li>
+          <li>CSS and frameworks</li>
+          <li>Bootstrap</li>
+          <li>JavaScript</li>
+          <li>AJAX</li>
+          <li>jQuery</li>
+          <li>APIs</li>
+          <li>Firebase</li>
+        </ul>
+      </p>
+      <p>
+        And in these backend technologies:
+        
+<ul>
+          <li>Server-side JavaScript:</li>
+          <li>Node.js</li>
+          <li>Express.js</li>
+          <li>HTTP</li>
+          <li>Databases and ORMs:</li>
+          <li>MySQL and Sequelize</li>
+          <li>MongoDB and Mongoose</li>
+          <li>MVC</li>
+        </ul>
       </p>
     </div>
   );
