@@ -6,11 +6,12 @@ import Contact from "./components/pages/Contact";
 import Projects from "./components/pages/Projects";
 import NoMatch from "./components/pages/NoMatch";
 import Footer from "./components/Footer"
+import "./components/pages/style.css"
 
 function App() {
   return (
     <Router>
-      <div>
+      <div className="wrapping">
         <NavTabs />
         <Switch>
         <Route exact path="/" component={About} />

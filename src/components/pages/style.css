@@ -1,3 +1,8 @@
+.bio {
+  margin: 10px;
+  text-align: justify;
+}
+
 .my-nav {
   list-style: none;
 }
@@ -20,6 +25,13 @@
   position: relative sticky;
 }
 
+.email {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  top: 15px;
+  left: 160px;
+}
 .footer {
   background-color: gray;
   height: 69.5px;
@@ -27,8 +39,15 @@
   padding-right: 50px;
   color:white;
   line-height: 50px;
+  position:absolute;
+  width:100%;
 }
 
+
+.wrapping {
+  min-height:100vh;
+  position:relative;
+}
 /* .copyright-text {
   margin-top:20px;
 } */

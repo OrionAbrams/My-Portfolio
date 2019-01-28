@@ -34,13 +34,6 @@ function Projects(props) {
           </div>
         </div>
       </div>
-      {/* <Link to={`${props.match.url}/learn`} role="button" className="btn btn-link">
-        Learn More
-      </Link>{" "}
-      <Link to="/projects" role="button" className="btn btn-link">
-        Learn Less
-      </Link>
-      <Route exact path={`${props.match.url}/learn`} component={Learn} /> */}
     </div>
   );
 }

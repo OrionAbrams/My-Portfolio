@@ -8,7 +8,7 @@ import Linkedin from "../assets/img/linkedin.png"
 
 function Footer() {
   return (
-    <footer className="footer fixed-bottom">&copy; Orion Abrams 2019
+    <footer className="footer">&copy; Orion Abrams 2019
     <Link target="_blank" to={"//twitter.com/OrionAbrams"} >
     <img className="prof-icons" alt="twitter" src={Twitter} />
     </Link>

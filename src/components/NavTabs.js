@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./pages/style.css"
+import Email from "../assets/img/email.png"
 
 function NavTabs() {
   return (
@@ -28,13 +29,11 @@ function NavTabs() {
         </Link>
         </li>
         <li className="nav-item">
-          <Link
-            to="/contact"
-            className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+          <a
+            href="mailto:contact@orionabrams.com"
           >
-            Contact
-            
-        </Link>
+            <img className="email"  alt="email" src={Email} />
+        </a>
         </li>
         </ul>
         <ul className="navbar-nav navbar-right ml-auto">
