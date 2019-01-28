@@ -11,7 +11,7 @@ function Projects(props) {
     <div>
       <h1>Projects Page</h1>
       <div className="container-fluid very-high">
-        <div className="row card-deck">
+        <div className="row card-deck space-from-footer top-space">
           <div className="card col-md-3">
               <Link target="_blank" to={"//rupert-movie-companion.herokuapp.com/"} >
                 <img className="project zoom card-img-top" alt="Rupert, The Movie Companion" src={Rupert} />

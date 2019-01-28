@@ -1,6 +1,10 @@
 .bio {
-  margin: 10px;
+  margin: 20px;
   text-align: justify;
+}
+
+.top-space {
+  margin-top: 25px;
 }
 
 .my-nav {
@@ -15,6 +19,7 @@
   width: 200px;
   float: left;
 }
+
 
 /* .project {
   height:150px;
@@ -32,7 +37,7 @@
 }
 
 .very-high {
-  height: 100vh;
+  height: 100%;
 }
 
 .footer {
@@ -46,7 +51,9 @@
   bottom: 0;
   width:100%;
 }
-
+.space-from-footer {
+  margin-bottom: 100px;
+}
 
 .wrapping {
   min-height:100vh;

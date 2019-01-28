@@ -5,15 +5,18 @@ import "./style.css"
 function About() {
   return (
     <div className="very-high">
+    <div className="row">
+    <div className="col">
       <h1>About Me</h1>
       <img className="rounded-circle face" alt="My face" src={Orion} />
       <p className="bio">
         I'm an ambitious web developer who enjoys solving puzzles and problems by calculating the best possible solutions. I am looking for a web development job for an innovative company. I Love tackling the rules and tactics in digital card games to identify the best line of play and am applying this problem-solving passion to coding. I acquired a certificate from Berkeley Extension Full-stack Bootcamp, which expanded skills in HTML/CSS, Javascript, JQuery, React, and Node. I’m thrilled to work with other developers to find bugs quickly and design excellent coding structures. My enthusiasm for problem-solving and tranquil demeanor is invaluable for any company.
     </p>
-
-      <div className="container">
+    </div>
+    </div>
+      <div className="container space-from-footer">
         <div className="row">
-          <div className="col-md-6">
+          <div className="card col-md-6">
           
         I'm skilled in these frontend technologies:
         <ul>
@@ -30,10 +33,10 @@ function About() {
         </ul>
       </div>
      
-      <div className="col-md-6">
+      <div className="card col-md-6">
         And in these backend technologies:
         
-        <ul>
+        <ul className>
           <li>Server-side JavaScript:</li>
           <li>Node.js</li>
           <li>Express.js</li>
