@@ -1,5 +1,52 @@
+.my-nav {
+  list-style: none;
+}
+.my-name{
+  float: right;
+}
+.face {
+  margin: 20px;
+  height: 200px;
+  width: 200px;
+  float: left;
+}
+
 .project {
   height:300px;
   width:400px;
   margin: 10px;
+  z-index: -1;
+  opacity: .1;
+  position: relative sticky;
+}
+
+.footer {
+  background-color: gray;
+  height: 69.5px;
+  padding: 10px;
+  padding-right: 50px;
+  color:white;
+  line-height: 50px;
+}
+
+/* .copyright-text {
+  margin-top:20px;
+} */
+
+.prof-icons {
+  float: right;
+  margin-left: 20px;
+  width: 48px;
+  height: 48px;
+}
+
+.zoom {
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  z-index: 99999 ;
+  opacity: 1;
 }

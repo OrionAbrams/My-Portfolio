@@ -1,10 +1,12 @@
 import React from "react";
 import Orion from "../../assets/img/me.png"
+import "./style.css"
+
 function About() {
   return (
     <div>
       <h1>About Me</h1>
-      <img src={Orion} />
+      <img className="rounded-circle face" alt="My face" src={Orion} />
       <p>
         I'm an ambitious web developer who enjoys solving puzzles and problems by calculating the best possible solutions. I am looking for a web development job for an innovative company. I Love tackling the rules and tactics in digital card games to identify the best line of play and am applying this problem-solving passion to coding. I acquired a certificate from Berkeley Extension Full-stack Bootcamp, which expanded skills in HTML/CSS, Javascript, JQuery, React, and Node. I’m thrilled to work with other developers to find bugs quickly and design excellent coding structures. My enthusiasm for problem-solving and tranquil demeanor is invaluable for any company.
   

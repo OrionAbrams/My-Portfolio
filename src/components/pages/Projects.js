@@ -1,6 +1,5 @@
 import React from "react";
-import { Link, Route } from "react-router-dom";
-import Learn from "./Learn";
+import { Link } from "react-router-dom";
 import Rupert from "../../assets/img/rupert.png"
 import Pawstagram from "../../assets/img/pawstagram.png"
 import RPS from "../../assets/img/RPS.png"
@@ -14,30 +13,34 @@ function Projects(props) {
       <div className="container">
         <div className="row">
           <div className="col-md-3">
-            <a href="https://orionabrams.github.io/Multiplayer-RPS/">
-              <img className="project" alt="Multiplayer Rock-Paper-Scissors" src={Rupert} /> </a>
+              <Link target="_blank" to={"//rupert-movie-companion.herokuapp.com/"} >
+              <img className="project zoom" alt="Rupert, The Movie Companion" src={Rupert} />
+              </Link>
           </div>
           <div className="col-md-3">
-            <a href="https://pawstagram.herokuapp.com/">
-              <img className="project" alt="Pawstagram" src={Pawstagram} /> </a>
+              <Link target="_blank" to={"//pawstagram.herokuapp.com/"} >
+              <img className="project zoom" alt="Pawstagram" src={Pawstagram} />
+              </Link>
           </div>
           <div className="col-md-3">
-            <a href="https://orionabrams.github.io/Multiplayer-RPS/">
-              <img className="project" alt="Multiplayer Rock-Paper-Scissors" src={RPS} /> </a>
+              <Link target="_blank" to={"//orionabrams.github.io/Multiplayer-RPS/"} >
+              <img className="project zoom" alt="Multiplayer Rock-Paper-Scissors" src={RPS} />
+              </Link>
           </div>
           <div className="col-md-3">
-            <a href="https://orionabrams.github.io/TriviaGame/">
-              <img className="project" alt="Video game trivia" src={Trivia} /> </a>
+              <Link target="_blank" to={"//orionabrams.github.io/TriviaGame/"} >
+              <img className="project zoom" alt="Video game trivia" src={Trivia} />
+              </Link>
           </div>
         </div>
       </div>
-      <Link to={`${props.match.url}/learn`} role="button" className="btn btn-link">
+      {/* <Link to={`${props.match.url}/learn`} role="button" className="btn btn-link">
         Learn More
       </Link>{" "}
       <Link to="/projects" role="button" className="btn btn-link">
         Learn Less
       </Link>
-      <Route exact path={`${props.match.url}/learn`} component={Learn} />
+      <Route exact path={`${props.match.url}/learn`} component={Learn} /> */}
     </div>
   );
 }
