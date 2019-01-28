@@ -16,14 +16,12 @@
   float: left;
 }
 
-.project {
-  height:300px;
-  width:400px;
+/* .project {
+  height:150px;
+  width:200px;
   margin: 10px;
   z-index: -1;
-  opacity: .1;
-  position: relative sticky;
-}
+} */
 
 .email {
   height: 24px;
@@ -32,6 +30,11 @@
   top: 15px;
   left: 160px;
 }
+
+.very-high {
+  height: 100vh;
+}
+
 .footer {
   background-color: gray;
   height: 69.5px;
@@ -40,6 +43,7 @@
   color:white;
   line-height: 50px;
   position:absolute;
+  bottom: 0;
   width:100%;
 }
 
@@ -65,7 +69,6 @@
 }
 
 .zoom:hover {
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   z-index: 99999 ;
-  opacity: 1;
 }

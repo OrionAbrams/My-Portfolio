@@ -4,7 +4,7 @@ import "./style.css"
 
 function About() {
   return (
-    <div>
+    <div className="very-high">
       <h1>About Me</h1>
       <img className="rounded-circle face" alt="My face" src={Orion} />
       <p className="bio">
