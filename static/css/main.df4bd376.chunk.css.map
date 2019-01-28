@@ -1,1 +1,0 @@
-{"version":3,"sources":["/Users/orion/Desktop/Github/portfolio/src/components/pages/style.css","main.df4bd376.chunk.css"],"names":[],"mappings":"AAAA,SACE,aAAa,AACb,YAAY,AACZ,WAAa,CCCd","file":"main.df4bd376.chunk.css","sourcesContent":[".project {\n  height:300px;\n  width:400px;\n  margin: 10px;\n}",".project {\n  height:300px;\n  width:400px;\n  margin: 10px;\n}\n"]}
