@@ -37,7 +37,7 @@ function NavTabs() {
         </li>
         </ul>
         <ul className="navbar-nav navbar-right ml-auto">
-          <li className="nav-item active">
+          <li className="nav-item">
             <Link to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>
               Orion Abrams
         </Link>

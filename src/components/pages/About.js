@@ -12,6 +12,7 @@ function About() {
       <p className="bio">
         Hi! Welcome to my website. My name is Orion and I am a web developer with a passion for solving puzzles. I recently acquired a certificate from Berkeley Extension Full-stack Bootcamp and am working on projects with most of my free time to improve my coding skills and create useful applications. Thank you for visiting my page, and please check out some of my projects. Please contact me with any questions using the mail icon above. Thanks!
     </p>
+    <a className="resume" href="https://docs.google.com/document/d/e/2PACX-1vQnYKLH_G1Gir7P9z0J6wZvUPZbIWCUkSFzOO-0fE1MiCbGoua5f_vd9FrDjYv7Vshl92xbuHsTly0i/pub">View Resume</a>
     </div>
     </div>
       <div className="container space-from-footer">
