@@ -10,20 +10,20 @@ function About() {
       <h1>About Me</h1>
       <img className="rounded-circle face" alt="My face" src={Orion} />
       <p className="bio">
-        I'm an ambitious web developer who enjoys solving puzzles and problems by calculating the best possible solutions. I am looking for a web development job for an innovative company. I Love tackling the rules and tactics in digital card games to identify the best line of play and am applying this problem-solving passion to coding. I acquired a certificate from Berkeley Extension Full-stack Bootcamp, which expanded skills in HTML/CSS, Javascript, JQuery, React, and Node. I’m thrilled to work with other developers to find bugs quickly and design excellent coding structures. My enthusiasm for problem-solving and tranquil demeanor is invaluable for any company.
+        Hi! Welcome to my website. My name is Orion and I am a web developer with a passion for solving puzzles. I recently acquired a certificate from Berkeley Extension Full-stack Bootcamp and am working on projects with most of my free time to improve my coding skills and create useful applications. Thank you for visiting my page, and please check out some of my projects. Please contact me with any questions using the mail icon above. Thanks!
     </p>
     </div>
     </div>
       <div className="container space-from-footer">
         <div className="row">
-          <div className="card col-md-6">
-          
-        I'm skilled in these frontend technologies:
+          <div className="col-md-6">
+          <div className="card mw-75 h-100">
+        <p className="text-center"><u>I'm skilled in these frontend technologies:</u></p>
         <ul>
           <li>React.js</li>
           <li>HTML and templating</li>
-          <li>Handlebars</li>
           <li>CSS and frameworks</li>
+          <li>Handlebars</li>
           <li>Bootstrap</li>
           <li>JavaScript</li>
           <li>AJAX</li>
@@ -31,22 +31,23 @@ function About() {
           <li>APIs</li>
           <li>Firebase</li>
         </ul>
+        </div>
       </div>
      
-      <div className="card col-md-6">
-        And in these backend technologies:
-        
-        <ul className>
-          <li>Server-side JavaScript:</li>
+      <div className="col-md-6">
+      <div className="card mw-75 h-100">
+      <p className="text-center"><u>And in these backend technologies:</u></p>
+        <ul>
           <li>Node.js</li>
           <li>Express.js</li>
           <li>HTTP</li>
-          <li>Databases and ORMs:</li>
-          <li>MySQL and Sequelize</li>
-          <li>MongoDB and Mongoose</li>
+          <li>MySQL</li>
+          <li>Sequelize</li>
+          <li>MongoDB</li>
+          <li>Mongoose</li>
           <li>MVC</li>
         </ul>
-    
+        </div>
        </div>
       </div>
       </div>

@@ -9,13 +9,13 @@ import Linkedin from "../assets/img/linkedin.png"
 function Footer() {
   return (
     <footer className="footer">&copy; Orion 2019
-    <Link target="_blank" to={"//twitter.com/OrionAbrams"} >
+    <Link target="_blank" to={"//twitter.com/orionabrams"} >
     <img className="prof-icons" alt="twitter" src={Twitter} />
     </Link>
-    <Link target="_blank" to={"//github.com/orionAbrams/"} >
+    <Link target="_blank" to={"//github.com/orionabrams/"} >
     <img className="prof-icons" alt="Github" src={Github} />
     </Link>
-    <Link target="_blank" to={"//www.linkedin.com/in/orionabrams/"} >
+    <Link target="_blank" to={"//linkedin.com/in/orionabrams/"} >
     <img className="prof-icons" alt="Linkedin" src={Linkedin} />
     </Link>
     </footer>

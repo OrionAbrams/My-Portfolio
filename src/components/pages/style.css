@@ -20,14 +20,6 @@
   float: left;
 }
 
-
-/* .project {
-  height:150px;
-  width:200px;
-  margin: 10px;
-  z-index: -1;
-} */
-
 .email {
   height: 24px;
   width: 24px;
@@ -44,7 +36,8 @@
   background-color: gray;
   height: 69.5px;
   padding: 10px;
-  padding-right: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
   color:white;
   line-height: 50px;
   position:absolute;

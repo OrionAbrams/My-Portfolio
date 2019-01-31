@@ -16,14 +16,14 @@ function Projects(props) {
               <Link target="_blank" to={"//rupert-movie-companion.herokuapp.com/"} >
                 <img className="project zoom card-img-top" alt="Rupert, The Movie Companion" src={Rupert} />
               </Link>
-              <p className="card-text card-body">Rupert!</p>
+              <p className="card-text h-100 card-body">Rupert is a movie helper app using Firebase, Dialogflow(as a Rupert chatbot), Bootstrap, </p>
           </div>
           <div className="card col-md-3">
 
               <Link target="_blank" to={"//pawstagram.herokuapp.com/"} >
                 <img className="project zoom card-img-top" alt="Pawstagram" src={Pawstagram} />
               </Link>
-              <p className="card-text card-body">Pawstagram!</p>
+              <p className="card-text h-100 card-body">Pawstagram!</p>
            
           </div>
           <div className="card col-md-3">
@@ -32,7 +32,7 @@ function Projects(props) {
                 to={"//orionabrams.github.io/Multiplayer-RPS/"} >
                 <img className="project zoom card-img-top" alt="Multiplayer Rock-Paper-Scissors" src={RPS} />
               </Link>
-              <p className="card-text card-body">Multiplayer Rock-Paper-Scissors!</p>
+              <p className="card-text h-100 card-body">Multiplayer Rock-Paper-Scissors!</p>
           
           </div>
           <div className="card col-md-3">
@@ -40,7 +40,7 @@ function Projects(props) {
               <Link target="_blank" to={"//orionabrams.github.io/TriviaGame/"} >
                 <img className="project zoom card-img-top" alt="Video game trivia" src={Trivia} />
               </Link>
-              <p className="card-text card-body">Video Game Trivia!</p>
+              <p className="card-text h-100 card-body">Video Game Trivia!</p>
             
           </div>
         </div>
