@@ -6,7 +6,7 @@ function About() {
   return (
     <div className="very-high">
     <div className="row">
-    <div className="col">
+    <div className="col-md-11">
       <h1>About Me</h1>
       <img className="rounded-circle face" alt="My face" src={Orion} />
       <p className="bio">

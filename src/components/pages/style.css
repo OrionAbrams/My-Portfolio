@@ -47,7 +47,9 @@
 .space-from-footer {
   margin-bottom: 100px;
 }
-
+.bottom-space {
+  margin-bottom: 20px;
+}
 .wrapping {
   min-height:100vh;
   position:relative;
@@ -69,6 +71,6 @@
 }
 
 .zoom:hover {
-  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   z-index: 99999 ;
 }
