@@ -3,12 +3,15 @@
   text-align: justify;
 }
 
-.resume {
-  margin-left: 20px;
-  margin-bottom: 20px;
+.contact-links {
+  font-size: large;
 }
 .top-space {
   margin-top: 25px;
+}
+
+.contact-form {
+  margin-top: 50px;
 }
 
 .my-nav {
@@ -27,9 +30,8 @@
 .email {
   height: 24px;
   width: 24px;
-  position: absolute;
-  top: 15px;
-  left: 160px;
+  margin-top: 8px;
+  margin-left: 10px;
 }
 
 .very-high {

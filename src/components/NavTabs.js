@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./pages/style.css"
 import Email from "../assets/img/email.png"
 
+
 function NavTabs() {
   return (
     <nav className="navbar fixed-top bg-dark navbar-dark navbar-expand my-nav">
@@ -26,6 +27,14 @@ function NavTabs() {
             className={window.location.pathname === "/projects" ? "nav-link active" : "nav-link"}
           >
             Projects
+        </Link>
+        </li>
+        <li className="nav-item">
+          <Link
+            to="/contact"
+            className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+          >
+            Contact
         </Link>
         </li>
         <li className="nav-item">
