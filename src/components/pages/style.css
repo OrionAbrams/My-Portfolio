@@ -56,14 +56,13 @@
 .bottom-space {
   margin-bottom: 20px;
 }
+.middle-spacing {
+  margin-top: 20px;
+}
 .wrapping {
   min-height:100vh;
   position:relative;
 }
-/* .copyright-text {
-  margin-top:20px;
-} */
-
 .prof-icons {
   float: right;
   margin-left: 20px;
