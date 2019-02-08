@@ -43,7 +43,7 @@ function Projects(props) {
                   to={"//orionabrams.github.io/Multiplayer-RPS/"} >
                   <img className="project zoom card-img-top" alt="Multiplayer Rock-Paper-Scissors" src={Fullstack} />
                 </Link>
-                <p className="card-text h-100 card-body">Fullstack-Network is a web based application that enable users affiliated with coding boot camps to organize their curriculum and increase networking engagement. App uses Express, React, Node, Sequelize, and Material Design Bootstrap. <a href="https://github.com/OrionAbrams/Fullstack-Network" target="_blank" rel="noopener noreferrer">Source Code</a></p>
+                <p className="card-text h-100 card-body">Fullstack-Network is a web-based application that enables users affiliated with coding boot camps to organize their curriculum and increase networking engagement. App uses Express, React, Node, Sequelize, and Material Design Bootstrap. <a href="https://github.com/OrionAbrams/Fullstack-Network" target="_blank" rel="noopener noreferrer">Source Code</a></p>
 
               </div>
               <div className="card col-md-6">
