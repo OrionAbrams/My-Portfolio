@@ -14,8 +14,9 @@ function Projects(props) {
       <h1>Projects Page</h1>
       <div className="container-fluid very-high">
         <div className="row card-deck bottom-space top-space">
-          <h5 className="col-md-6 text-center">Group Projects</h5>
-          <h5 className="col-md-6 text-center">Solo Projects</h5>
+        {/* left this in because wasn't sure if I wanted to have the descriptive text above */}
+          {/* <h5 className="col-md-6 text-center">Group Projects</h5>
+          <h5 className="col-md-6 text-center">Solo Projects</h5> */}
           <div className="row">
             <div className="card col-md-6">
               <Link target="_blank" to={"//pawstagram.herokuapp.com/"} >
