@@ -6,6 +6,12 @@
 .contact-links {
   font-size: large;
 }
+
+.contact-links:hover {
+  text-shadow: -.25px -.25px 0 black, 
+                .25px .25px black;
+}
+
 .top-space {
   margin-top: 25px;
 }

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Rupert from "../../assets/img/rupert.png"
 import Pawstagram from "../../assets/img/pawstagram.png"
-import RPS from "../../assets/img/RPS.png"
+import Pilates from "../../assets/img/baypilates.png"
 import Gbooks from "../../assets/img/google-books.png"
 import Fullstack from "../../assets/img/fullstack.png"
 import Scraper from "../../assets/img/scraper.png"
@@ -14,7 +14,7 @@ function Projects(props) {
       <h1>Projects Page</h1>
       <div className="container-fluid very-high">
         <div className="row card-deck bottom-space top-space">
-        {/* left this in because wasn't sure if I wanted to have the descriptive text above */}
+          {/* left this in because wasn't sure if I wanted to have the descriptive text above */}
           {/* <h5 className="col-md-6 text-center">Group Projects</h5>
           <h5 className="col-md-6 text-center">Solo Projects</h5> */}
           <div className="row">
@@ -28,11 +28,11 @@ function Projects(props) {
             </div>
             <div className="card col-md-6">
 
-              <Link target="_blank" to={"//google-books-react-orion.herokuapp.com/"} >
-                <img className="project zoom card-img-top" alt="Google Books" src={Gbooks} />
+              <Link target="_blank" to={"//baypilateswellness.com"} >
+                <img className="project zoom card-img-top" alt="Bay Pilates Wellness" src={Pilates} />
               </Link>
-              <p className="card-text h-100 card-body">An app that searches for google books, puts them into mongo database, and user can save or delete them.
-              App uses Full MERN Stack (Mongo, Express, React, Node). <a href="https://github.com/OrionAbrams/Google-Books" target="_blank" rel="noopener noreferrer">Source Code</a></p>
+              <p className="card-text h-100 card-body">A deployed website promoting pilates, nutrition, and massage.
+              The site uses HTML, Jquery, Bootstrap, and advanced CSS techniques. <a href="https://github.com/OrionAbrams/Bay-Pilates-Wellness" target="_blank" rel="noopener noreferrer">Source Code</a></p>
 
             </div>
 
@@ -63,11 +63,13 @@ function Projects(props) {
             </div>
 
             <div className="card col-md-6">
-              <Link target="_blank"
-                to={"//orionabrams.github.io/Multiplayer-RPS/"} >
-                <img className="project zoom card-img-top" alt="Multiplayer Rock-Paper-Scissors" src={RPS} />
+
+              <Link target="_blank" to={"//google-books-react-orion.herokuapp.com/"} >
+                <img className="project zoom card-img-top" alt="Google Books" src={Gbooks} />
               </Link>
-              <p className="card-text h-100 card-body">Multiplayer Rock-Paper-Scissors is a simple rock, paper, scissors game using firebase to connect the user as player one or player two. It uses Javascript, JQuery, Firebase, Bootstrap, and Moment.js. <a href="https://github.com/OrionAbrams/Multiplayer-RPS" target="_blank" rel="noopener noreferrer">Source Code</a></p>
+              <p className="card-text h-100 card-body">An app that searches for google books, puts them into mongo database, and user can save or delete them.
+App uses Full MERN Stack (Mongo, Express, React, Node). <a href="https://github.com/OrionAbrams/Google-Books" target="_blank" rel="noopener noreferrer">Source Code</a></p>
+
             </div>
           </div>
         </div>
