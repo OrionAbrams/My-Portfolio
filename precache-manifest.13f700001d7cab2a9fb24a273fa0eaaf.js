@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "5893f7aec2062367521b",
+    "revision": "c1bfa8b33a1cf4de2bfb",
     "url": "/static/css/main.d450d3fb.chunk.css"
   },
   {
-    "revision": "5893f7aec2062367521b",
-    "url": "/static/js/main.5893f7ae.chunk.js"
+    "revision": "c1bfa8b33a1cf4de2bfb",
+    "url": "/static/js/main.c1bfa8b3.chunk.js"
   },
   {
     "revision": "dbe7884f17600fd6a81a",
@@ -108,12 +108,12 @@ self.__precacheManifest = [
     "url": "/static/media/fa-solid-900.56404b18.svg"
   },
   {
-    "revision": "11911410dca2de148f30954eb2fd5eab",
-    "url": "/static/media/arrow_left.11911410.svg"
-  },
-  {
     "revision": "8ef6a08cdc1154920165680a4edde771",
     "url": "/static/media/arrow_right.8ef6a08c.svg"
+  },
+  {
+    "revision": "11911410dca2de148f30954eb2fd5eab",
+    "url": "/static/media/arrow_left.11911410.svg"
   },
   {
     "revision": "dfe56a876d0282555d1e2458e278060f",
@@ -156,12 +156,12 @@ self.__precacheManifest = [
     "url": "/static/media/Roboto-Bold.39b2c303.woff2"
   },
   {
-    "revision": "3b813c2ae0d04909a33a18d792912ee7",
-    "url": "/static/media/Roboto-Light.3b813c2a.woff"
-  },
-  {
     "revision": "7500519de3d82e33d1587f8042e2afcb",
     "url": "/static/media/Roboto-Thin.7500519d.woff"
+  },
+  {
+    "revision": "3b813c2ae0d04909a33a18d792912ee7",
+    "url": "/static/media/Roboto-Light.3b813c2a.woff"
   },
   {
     "revision": "ba3dcd8903e3d0af5de7792777f8ae0d",
@@ -188,15 +188,15 @@ self.__precacheManifest = [
     "url": "/static/media/Roboto-Regular.df7b648c.ttf"
   },
   {
-    "revision": "e31fcf1885e371e19f5786c2bdfeae1b",
-    "url": "/static/media/Roboto-Bold.e31fcf18.ttf"
-  },
-  {
     "revision": "894a2ede85a483bf9bedefd4db45cdb9",
     "url": "/static/media/Roboto-Medium.894a2ede.ttf"
   },
   {
-    "revision": "c56bfe31d9fe619b2e4c51e6e802f97c",
+    "revision": "e31fcf1885e371e19f5786c2bdfeae1b",
+    "url": "/static/media/Roboto-Bold.e31fcf18.ttf"
+  },
+  {
+    "revision": "0fbc64c10aca2dba19877452bf3a2d78",
     "url": "/index.html"
   }
 ];
