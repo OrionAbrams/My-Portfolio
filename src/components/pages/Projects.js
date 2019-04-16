@@ -67,7 +67,7 @@ function Projects(props) {
 
 
             <div className="card col-md-6">
-              <Link target="_blank" to={"//rupert-movie-companion.herokuapp.com/"} >
+              <Link target="_blank" to={"//orions-scraper.herokuapp.com/"} >
                 <img className="project zoom card-img-top" alt="Rupert, The Movie Companion" src={Scraper} />
               </Link>
               <p className="card-text h-100 card-body">This app scrapes the latest news about indie games from IND13 and the user can leave notes on the site they and others can see. App uses Mongo, Express, Node, and Cheerio. <a href="https://github.com/OrionAbrams/Scraper" target="_blank" rel="noopener noreferrer">Source Code</a></p>
