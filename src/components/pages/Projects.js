@@ -23,7 +23,7 @@ function Projects(props) {
               <Link target="_blank" to={"//producer-contracts.herokuapp.com/"} >
                 <img className="project zoom card-img-top" alt="Producer Contracts" src={Stealth} />
               </Link>
-              <p className="card-text h-100 card-body">A secure form-filling application that takes in user info, puts it in MongoDB, and automatically fills in a contract for the user to sign using Hellosign. Built with react so that no one can see what is on the private forms without a valid username and password. Real-world project made for a SF stealth startup. The app uses the Full MERN Stack (Mongo, Express, React, and Node). <a href="https://github.com/OrionAbrams/stealth-project" target="_blank" rel="noopener noreferrer">Source Code</a></p>
+              <p className="card-text h-100 card-body">A secure form-filling application that takes in user info, puts it in MongoDB, and automatically fills in a contract for the user to sign using Hellosign. Built with React so that no one can see what is on the private forms without a valid username and password. Real-world project made for a SF stealth startup. The app uses the Full MERN Stack (Mongo, Express, React, and Node). <a href="https://github.com/OrionAbrams/stealth-project" target="_blank" rel="noopener noreferrer">Source Code</a></p>
 
             </div>
 
