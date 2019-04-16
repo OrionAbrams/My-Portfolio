@@ -14,9 +14,9 @@ function About() {
             Hi! Welcome to my portfolio website. My name is Orion and I am a web developer who loves solving puzzles. I recently acquired a certificate from Berkeley Extension Full Stack Bootcamp and am doing contract work building websites while searching for a full-time job. Please check out some of my projects and contact me with any questions using the mail icon above or the form on the Contact page. Thanks!
         </p>
           <p className="bio">
-            <Link target="_blank" className="contact-links text-dark" to="//drive.google.com/file/d/14GC2oUkdZH_dKI7r7Fd4EDVvvjzs-Rsa/view?usp=sharing"> Resume / </Link>
-            <Link target="_blank" className="contact-links text-dark" to="//github.com/OrionAbrams"> Github / </Link>
-            <Link target="_blank" className="contact-links text-dark" to="//www.linkedin.com/in/orionabrams/"> LinkedIn / </Link>
+            <Link target="_blank" className="contact-links text-dark" to="//drive.google.com/file/d/14GC2oUkdZH_dKI7r7Fd4EDVvvjzs-Rsa/view?usp=sharing"> Resume </Link> /
+            <Link target="_blank" className="contact-links text-dark" to="//github.com/OrionAbrams"> Github </Link> /
+            <Link target="_blank" className="contact-links text-dark" to="//www.linkedin.com/in/orionabrams/"> LinkedIn </Link> /
             <Link target="_blank" className="contact-links text-dark space-from-footer" to="//twitter.com/OrionAbrams"> Twitter</Link>
           </p>
 
@@ -24,7 +24,7 @@ function About() {
       </div>
       <div className="container space-from-footer">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6 top-space">
             <div className="card mw-75 h-100">
               <p className="text-center"><u>I'm skilled in these frontend technologies:</u></p>
               <ul>
@@ -41,8 +41,8 @@ function About() {
               </ul>
             </div>
           </div>
-
-          <div className="col-md-6">
+      
+          <div className="col-md-6 top-space">
             <div className="card mw-75 h-100">
               <p className="text-center"><u>And in these backend technologies:</u></p>
               <ul>
@@ -54,6 +54,8 @@ function About() {
                 <li>MongoDB</li>
                 <li>Mongoose</li>
                 <li>MVC</li>
+                <li>Python</li>
+                <li>SDK integration</li>
               </ul>
             </div>
           </div>
