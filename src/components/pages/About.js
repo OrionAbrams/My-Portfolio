@@ -26,7 +26,7 @@ function About() {
         <div className="row">
           <div className="col-md-6 top-space">
             <div className="card mw-75 h-100">
-              <p className="text-center"><u>I'm skilled in these frontend technologies:</u></p>
+              <p className="text-center tech-title">Front-End Skills:</p>
               <ul>
                 <li>React.js</li>
                 <li>HTML and templating</li>
@@ -44,7 +44,7 @@ function About() {
       
           <div className="col-md-6 top-space">
             <div className="card mw-75 h-100">
-              <p className="text-center"><u>And in these backend technologies:</u></p>
+              <p className="text-center tech-title">Back-End Skills:</p>
               <ul>
                 <li>Node.js</li>
                 <li>Express.js</li>
