@@ -11,7 +11,7 @@ function About() {
           <h1>About Me</h1>
           <img className="rounded-circle face" alt="My face" src={Orion} />
           <p className="bio">
-            Hi! Welcome to my portfolio website. My name is Orion and I am a web developer who loves solving puzzles. I recently acquired a certificate from Berkeley Extension Full Stack Bootcamp and am doing contract work building websites while searching for a full-time job. Please check out some of my projects and contact me with any questions using the mail icon above or the form on the Contact page. Thanks!
+            Hi! Welcome to my portfolio website. My name is Orion and I am a full stack developer who loves solving puzzles. I acquired a certificate from Berkeley Extension Full Stack Coding Bootcamp and am now working at <Link target="_blank" className="" to="//www.celigo.com">Celigo</Link> in San Mateo as a Technical Implementation Consultant. Please check out some of my projects and contact me with any questions using the mail icon above or the form on the Contact page. Thanks!
         </p>
           <p className="bio">
             <Link target="_blank" className="contact-links text-dark" to="//drive.google.com/file/d/14GC2oUkdZH_dKI7r7Fd4EDVvvjzs-Rsa/view?usp=sharing"> Resume </Link> /
