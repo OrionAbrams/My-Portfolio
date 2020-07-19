@@ -4,7 +4,7 @@ import Rupert from "../../assets/img/rupert.png"
 import Pawstagram from "../../assets/img/pawstagram.png"
 import Pilates from "../../assets/img/baypilates.png"
 import Fullstack from "../../assets/img/fullstack.png"
-import Scraper from "../../assets/img/scraper.png"
+import Rps from "../../assets/img/RPS.png"
 import Stealth from "../../assets/img/stealth.png"
 import "./style.css"
 
@@ -67,10 +67,10 @@ function Projects(props) {
 
 
             <div className="card col-md-6">
-              <Link target="_blank" to={"//orions-scraper.herokuapp.com/"} >
-                <img className="project zoom card-img-top" alt="Rupert, The Movie Companion" src={Scraper} />
+              <Link target="_blank" to={"//orionabrams.github.io/Multiplayer-RPS/"} >
+                <img className="project zoom card-img-top" alt="Rock, Paper, Scissors Game" src={Rps} />
               </Link>
-              <p className="card-text h-100 card-body">This app scrapes the latest news about indie games from IND13 and the user can leave notes on the site they and others can see. App uses Mongo, Express, Node, and Cheerio. <a href="https://github.com/OrionAbrams/Scraper" target="_blank" rel="noopener noreferrer">Source Code</a></p>
+              <p className="card-text h-100 card-body">A game of rock paper scissors using Firebase. Can be played with two users on the same computer or online. <a href="https://github.com/OrionAbrams/Multiplayer-RPS" target="_blank" rel="noopener noreferrer">Source Code</a></p>
             </div>
           </div>
         </div>
