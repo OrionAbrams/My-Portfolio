@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.31714eb2.chunk.css",
-  "main.js": "/static/js/main.31690d30.chunk.js",
-  "main.js.map": "/static/js/main.31690d30.chunk.js.map",
+  "main.js": "/static/js/main.4c9d9514.chunk.js",
+  "main.js.map": "/static/js/main.4c9d9514.chunk.js.map",
   "static/css/1.b5ace19a.chunk.css": "/static/css/1.b5ace19a.chunk.css",
   "static/js/1.52c89714.chunk.js": "/static/js/1.52c89714.chunk.js",
   "static/js/1.52c89714.chunk.js.map": "/static/js/1.52c89714.chunk.js.map",
@@ -12,13 +12,13 @@
   "static/media/pawstagram.png": "/static/media/pawstagram.26d8e003.png",
   "static/media/baypilates.png": "/static/media/baypilates.708e681a.png",
   "static/media/fullstack.png": "/static/media/fullstack.03ce05c1.png",
-  "static/media/scraper.png": "/static/media/scraper.1b3661dd.png",
+  "static/media/RPS.png": "/static/media/RPS.7590bf5d.png",
   "static/media/stealth.png": "/static/media/stealth.0ef93763.png",
   "static/media/all.min.css": "/static/media/fa-solid-900.56404b18.svg",
   "static/media/rupert.png": "/static/media/rupert.8007e6f2.png",
   "static/css/main.31714eb2.chunk.css.map": "/static/css/main.31714eb2.chunk.css.map",
   "static/css/1.b5ace19a.chunk.css.map": "/static/css/1.b5ace19a.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.f1da2a2a95851bd49775f5a4e2ab3a56.js": "/precache-manifest.f1da2a2a95851bd49775f5a4e2ab3a56.js",
+  "precache-manifest.04ca5f84177e5e9ab165dfc0d88fb36a.js": "/precache-manifest.04ca5f84177e5e9ab165dfc0d88fb36a.js",
   "service-worker.js": "/service-worker.js"
 }
