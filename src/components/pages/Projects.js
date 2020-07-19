@@ -41,8 +41,8 @@ function Projects(props) {
               <div className="card col-md-6">
 
                 <Link target="_blank"
-                  to={"//orionabrams.github.io/Multiplayer-RPS/"} >
-                  <img className="project zoom card-img-top" alt="Multiplayer Rock-Paper-Scissors" src={Fullstack} />
+                  to={"//fullstack-network.herokuapp.com/"} >
+                  <img className="project zoom card-img-top" alt="Fullstack-Network" src={Fullstack} />
                 </Link>
                 <p className="card-text h-100 card-body">Fullstack-Network is a web-based application that enables users affiliated with coding boot camps to organize their curriculum and increase networking engagement. App uses Express, React, Node, Sequelize, and Material Design Bootstrap. <a href="https://github.com/OrionAbrams/Fullstack-Network" target="_blank" rel="noopener noreferrer">Source Code</a></p>
 
